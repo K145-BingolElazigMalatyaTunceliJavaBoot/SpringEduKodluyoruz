@@ -1,7 +1,7 @@
-package com.kodluyoruz.springegitim.dorduncuhafta.packageyapisi.service;
+package com.kodluyoruz.springegitim.dorduncuhafta.cmt.packageyapisi.service;
 
 
-import com.kodluyoruz.springegitim.dorduncuhafta.packageyapisi.model.Student;
+import com.kodluyoruz.springegitim.dorduncuhafta.cmt.packageyapisi.model.Student;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.kodluyoruz.springegitim.dorduncuhafta.Odev;
+package com.kodluyoruz.springegitim.dorduncuhafta.cmt.Odev;
 
 public class Odev {
     /**

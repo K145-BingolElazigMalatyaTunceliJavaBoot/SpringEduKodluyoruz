@@ -1,4 +1,4 @@
-package com.kodluyoruz.springegitim.dorduncuhafta.packageyapisi.model;
+package com.kodluyoruz.springegitim.dorduncuhafta.cmt.packageyapisi.model;
 
 public class Student {
 
