@@ -1,9 +1,12 @@
 package com.kodluyoruz.springegitim.dorduncuhafta.pazar.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "ENGINEER")
+@Data
 public class Engineer {
 
     @Id
@@ -16,27 +19,7 @@ public class Engineer {
     @Column(name = "LAST_NAME")
     private String lastName;
 
-    public int getId() {
-        return id;
-    }
+    @Column
+    private String tckn;
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
 }

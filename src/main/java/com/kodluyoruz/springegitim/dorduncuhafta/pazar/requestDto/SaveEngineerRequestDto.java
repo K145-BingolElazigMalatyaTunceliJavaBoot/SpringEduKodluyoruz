@@ -2,22 +2,32 @@ package com.kodluyoruz.springegitim.dorduncuhafta.pazar.requestDto;
 
 public class SaveEngineerRequestDto {
 
-    private String ad;
-    private String soyad;
+    private String name;
+    private String lastName;
 
-    public String getAd() {
-        return ad;
+    private String tckn;
+
+    public String getName() {
+        return name;
     }
 
-    public void setAd(String ad) {
-        this.ad = ad;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getSoyad() {
-        return soyad;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSoyad(String soyad) {
-        this.soyad = soyad;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getTckn() {
+        return tckn;
+    }
+
+    public void setTckn(String tckn) {
+        this.tckn = tckn;
     }
 }

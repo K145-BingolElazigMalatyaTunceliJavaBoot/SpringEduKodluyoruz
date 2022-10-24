@@ -18,7 +18,8 @@ public class StudentsService {
 
         String sql = "select * from student";
 
-        return jdbcTemplate.query(sql, new StudentMapper());
+        List<Student> query = jdbcTemplate.query(sql, new StudentMapper());
+        return query;
 
     }
 

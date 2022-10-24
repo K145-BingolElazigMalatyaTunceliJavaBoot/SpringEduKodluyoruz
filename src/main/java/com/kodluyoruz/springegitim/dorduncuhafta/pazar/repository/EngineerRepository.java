@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface EngineerRepository extends CrudRepository<Engineer, Integer> {
-
-    public List<Engineer> findAllByName(String name);
+    List<Engineer> findAllByName(String name);
+    List<Engineer> findAllByNameOrLastName(String name, String lastName);
 
 }

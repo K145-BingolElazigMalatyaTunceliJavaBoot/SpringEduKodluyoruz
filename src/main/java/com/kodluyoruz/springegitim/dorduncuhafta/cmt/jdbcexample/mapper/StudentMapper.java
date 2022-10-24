@@ -16,6 +16,5 @@ public class StudentMapper implements RowMapper<Student> {
         studentDto.setNo(rs.getInt("NO"));
 
         return studentDto;
-
     }
 }

@@ -1,23 +1,11 @@
 package com.kodluyoruz.springegitim.dorduncuhafta.pazar.responseDto;
 
+import lombok.Data;
+
+@Data
 public class EngineerResponseDto {
 
-    private String ad;
-    private String soyad;
+    private String name;
 
-    public String getAd() {
-        return ad;
-    }
-
-    public void setAd(String ad) {
-        this.ad = ad;
-    }
-
-    public String getSoyad() {
-        return soyad;
-    }
-
-    public void setSoyad(String soyad) {
-        this.soyad = soyad;
-    }
+    private String lastName;
 }
